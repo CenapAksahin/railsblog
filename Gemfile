@@ -48,14 +48,17 @@ group :development do
   gem 'devise'
   gem 'paperclip'
   gem 'activeadmin'
- 
+  
 end
 
-group :prodution do
+group :production do 
   gem 'pg'
-   gem 'bootstrap-sass'
+  gem 'bootstrap-sass'
   gem 'jquery-rails'
   gem 'devise'
   gem 'paperclip'
   gem 'activeadmin'
+  
 end
+
+
